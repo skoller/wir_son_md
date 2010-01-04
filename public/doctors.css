@@ -51,7 +51,7 @@ fieldset {
 	margin-right: auto;
 	margin-bottom: 20px;
 	width: 840px;
-	background-color: #eee;
+	background-color: #f8f8f8;
 }
 
 fieldset label {
@@ -127,11 +127,13 @@ h3 {
 }
 
 input.textinput {
- 	background:#F7F7F7;
-	display:inline;
-	padding:0 0 0 0;
-	height:1.1em;
-	border: 1px solid #CCCCCC;
+ 	background: #fff;
+	display: inlne;
+	padding: 0 0 0 0;
+	margin-left: 10px;
+	height: 1.4em;
+	border: 1px solid #aaa;
+	width: 300px;
 }
 
 input.textinput:hover { 
@@ -139,13 +141,14 @@ input.textinput:hover {
 }
 
 input.searchButton {
-	background-color:blue;
-	color:#FFFFFF;
-	font-weight:bold;
-	display:inline;
-	padding:0 0 0 0;
-	border:none;
-	width:25px;
+	background-color: blue;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: inline;
+	padding: 0 0 0 0;
+	border: none;
+	width: 28px;
+	height: 1.4em;
 }
 
 #middle-panel {
@@ -235,6 +238,27 @@ p {
 	word-spacing: 2px;
 	color: #AAaAAA;
 	line-height: 1.4em;
+}
+		
+#searchAssist {
+	font-family: arial, sans-serif;
+	color: #555
+	font-weight: bold;
+	float: left;
+}
+
+#searchAssist p {
+	margin: 1px 0px 0px 120px;
+	padding: 0px;
+	font-weight: bold;
+	color: #555;
+}
+
+#searchBox {
+	width: 840px;
+	height: 38px;
+	background-color: #f8f8f8;
+	border: 1px solid #aaa;
 }
 
 table {
