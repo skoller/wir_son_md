@@ -29,17 +29,13 @@ body {
 #column-l {
 	float: left;
 	width: 250px;
+	margin-bottom: 20px;
 }
 
 #column-r {
 	float: right;
 	width: 620;
-}
-
-#container {
-	margin-top: 30px;
-	text-align:left;
-	padding:0px 0px 0px 0px;
+	margin-bottom: 20px;
 }
 
 div.module {
@@ -62,7 +58,7 @@ div.module {
 	font-family: arial, times,sans-serif;
 	font-size: 12px;
 	clear: both;
-	color: #AAaAAA;
+	color: #AAA;
 }
 
 h1 {
@@ -139,7 +135,7 @@ input.searchButton {
 	margin: 0px -4px 0px 0px;
 	padding: 10px 16px 10px 17px;
 	display: inline;
-	border: 1px solid #CCC;
+	border: 1px solid #AAA;
 	border-collapse: collapse;
 }
 
