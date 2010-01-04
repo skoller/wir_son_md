@@ -45,12 +45,13 @@ div.module {
 }
 
 fieldset {
-	border: 1px solid red;
-	margin-top: 30px;
+	border: 1px solid #aaa;
+	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	width: 800px;
+	width: 840px;
+	background-color: #eee;
 }
 
 fieldset p {
@@ -61,6 +62,26 @@ fieldset p {
 fieldset legend {
 	font-size: 16px;
 	color: blue;
+}
+
+fieldset td {
+	border-right: none;
+}
+
+#find-doctors-panel {
+	width: 900px;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 1px solid #aaa;
+}
+
+#found-doctors-panel {
+	width: 900px;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 1px solid #aaa;
 }
 
 #footer {
@@ -81,7 +102,7 @@ h1 {
 	font-weight: normal;
 }
 
-h1 span {
+h2 span {
 	font-size: 24px;
 	color: #CCCCCC;
 	font-weight: normal;
@@ -89,10 +110,10 @@ h1 span {
 }
 
 h2 {
-	font-size: 20px;
-	color: #CCCCCC;
+	margin-top: 30px;
+	font-size: 24px;
+	color: blue;
 	font-weight: normal;
-	margin-top: -18px;
 }
 
 h3 {
@@ -104,13 +125,6 @@ h3 {
 	padding: 5px 5px 5px 5px;
 	background: #F7F7F7;
 	border-bottom: 1px solid #AAA;
-}
-
-iframe {
-	width: 900px;
-	height: 250px;
-	border: 1px solid #aaa;
-	padding: 0px;
 }
 
 input.textinput {
@@ -135,6 +149,62 @@ input.searchButton {
 	width:25px;
 }
 
+#middle-panel {
+	width: 900px;
+	height: 60px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #f6f6f6;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+
+#middle-panel #move-up-down-div {
+	float: left;
+	width: 170px;
+	text-align: center;
+	padding: 4px 0px 0px 40px;
+}
+
+#middle-panel #move-up-down {
+	color: #CCC;
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#middle-panel #move-up-down li {
+	margin: -1px 10px 0px 0px;
+	padding: 6px 16px 6px 16px;
+	border: 1px solid #aaa;
+	background-color: white;
+}
+
+#middle-panel #toolbar-div {
+	float: right;
+	color: #CCC;
+}
+
+#middle-panel #toolbar {
+	list-style-type: none;
+	margin: 17px 40px 0px 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+#middle-panel #toolbar li {
+	margin: 0px -1px 0px 0px;
+	padding: 6px 13px 6px 13px;
+	border: 1px solid #aaa;
+	float: left;
+	background-color: white;
+}
+
+#middle-panel a {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
 #nav {
 	 position: relative;
 	 width: 900px;
@@ -142,7 +212,6 @@ input.searchButton {
 	 margin: 0px 0px 0px 0px;
 	 padding: 0px 0px 0px 0px;
 }
-
 
 #nav ul {
 	color: #CCC;
@@ -160,22 +229,21 @@ input.searchButton {
 }
 
 p {
-	padding:9px 9px 9px 9px;
-	font-family:normal;
-	font-family:arial, times,sans-serif;
-	font-size:12px;
-	word-spacing:2px;
-	color:#AAaAAA;
-	line-height:1.4em;
-}
-
-#states li a {
+	padding: 9px 9px 9px 9px;
+	font-family: normal;
+	font-family: arial, times,sans-serif;
 	font-size: 12px;
+	word-spacing: 2px;
+	color: #AAaAAA;
+	line-height: 1.4em;
 }
 
 table {
 	border-collapse: collapse;
 	width: 100%;
+	font-family: arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 th {
@@ -200,41 +268,8 @@ td:last-child, th:last-child {
 	border-right: none;
 }
 
-#top {
-	margin-bottom: 10px;
-}
+
 
 tr.odd {
 	background-color: #eee;
 }
-
-/*
-#announcement {
-	margin-top:65px;
-	width:155px;
-	position:relative;
-	margin-left:-15px;
-	margin-right:8px;
-	float:left;
-	padding:0px 0px 0px 0px;
-}
-
-		<div id="searchBox">
-			<div id="searchAssist">search for term:&nbsp;</div>
-			<input type="text" class="textinput" />
-			<input type="submit" value="GO" class="searchButton" />
-		</div>
-		
-		#searchAssist {
-	font-family: arial, Times New Roman;
-	color: #AAAAAA;
-	float: left;
-	margin-bottom: -4px;
-}
-
-#searchBox {
-	float:right;
-	margin-top:-33px;
-	margin-right:10px;
-}
-*/

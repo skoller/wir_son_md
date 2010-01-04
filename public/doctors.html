@@ -8,7 +8,7 @@
 
 <body>	
 	<div id="top">
-		<h1><span id="subhead">SonicMD: </span>Admin &lt; Doctors</h1>
+		<h1>SonicMD</h1>
 		<div id="nav">
 			<ul class="menu">
 				<li class="menu"><a href="index.html">Dashboard</a></li>
@@ -21,7 +21,9 @@
 				<li class="menu"><a href="admins.html">Admins</a></li>
 				<li class="menu"><a href="mastersettings.html">Master Settings</a></li>
 			</ul>
-		</div>	
+		</div>
+		<h2><span class="subhead">Admin &lt;</span> Doctors Roster</h2>
+
 	</div>
 
 	<div id="container">
@@ -41,7 +43,22 @@
 								</select>
 							</td>
 							<td>
-								<label>Specialty:</label>
+								<label>Feedback Score:</label>
+								<select>
+									<option>Any</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4/option>
+								</select>
+							</td>
+							<td>
+								<input type="checkbox">
+								<label>Premium Pool Only</label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label># of Calls</label>
 								<select>
 									<option>Any</option>
 									<option>Option 2</option>
@@ -50,7 +67,16 @@
 								</select>
 							</td>
 							<td>
-								<label>Specialty:</label>
+								<label>Age:</label>
+								<select>
+									<option>Any</option>
+									<option>18-44</option>
+									<option>45-79</option>
+									<option>80+</option>
+								</select>
+							</td>
+							<td>
+								<label>Doctor Network:</label>
 								<select>
 									<option>Any</option>
 									<option>Option 2</option>
@@ -61,7 +87,7 @@
 						</tr>
 						<tr>
 							<td>
-								<label>Specialty:</label>
+								<label>State of Licensure:</label>
 								<select>
 									<option>Any</option>
 									<option>Option 2</option>
@@ -70,7 +96,7 @@
 								</select>
 							</td>
 							<td>
-								<label>Specialty:</label>
+								<label>Ethnicity:</label>
 								<select>
 									<option>Any</option>
 									<option>Option 2</option>
@@ -79,18 +105,13 @@
 								</select>
 							</td>
 							<td>
-								<label>Specialty:</label>
-								<select>
-									<option>Any</option>
-									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
-								</select>
+								<input type="checkbox">
+								<label>Flagged for Investigation:</label>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<label>Specialty:</label>
+								<label>Language:</label>
 								<select>
 									<option>Any</option>
 									<option>Option 2</option>
@@ -98,52 +119,17 @@
 									<option>Option 3 - A long Option</option>
 								</select>
 							</td>
-							<td>
-								<label>Specialty:</label>
+							<td colspan="2">
+								<label>Employment Duration:</label>
 								<select>
-									<option>Any</option>
+									<option>More Than</option>
 									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
+									<option>Less Than</option>
 								</select>
-							</td>
-							<td>
-								<label>Specialty:</label>
 								<select>
-									<option>Any</option>
+									<option>2 Months</option>
 									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<label>Specialty:</label>
-								<select>
-									<option>Any</option>
-									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
-								</select>
-							</td>
-							<td>
-								<label>Specialty:</label>
-								<select>
-									<option>Any</option>
-									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
-								</select>
-							</td>
-							<td>
-								<label>Specialty:</label>
-								<select>
-									<option>Any</option>
-									<option>Option 2</option>
-									<option>Option 3 - A long Option</option>
-									<option>Option 3 - A long Option</option>
-								</select>
+								</select> 
 							</td>
 						</tr>
 					</table>
@@ -154,16 +140,208 @@
 		</div>
 		
 		<div id="find-doctors-panel">
-			<iframe id="find-doctors-iframe" src="find-doctors-table.html">
-			</iframe>
+			<table>
+				<tr class="header">
+					<th width="25%">Last Name</th>
+					<th width="15%">First Name</th>
+					<th>Doctor ID#</th>
+					<th>Default Phone #</th>
+					<th>Current Availability</th>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+			</table>
 		</div>
 		
-		<div id="toolbar">
+		<div id="middle-panel">
+			
+			<div id="move-up-down-div">
+				<ul id="move-up-down">
+					<li><a href="#">Select All Above</a></li>
+					<li><a href="#">Move Selected Below</a></li>
+				</ul>
+			</div>
+			
+			<div id="toolbar-div">
+				<ul id="toolbar">
+					<li><a href="#">Group Edit</a></li>
+					<li><a href="#">Create a New DN</a></li>
+					<li><a href="#">Send to RT-Management</a></li>
+					<li><a href="#">Send to Messaging</a></li>
+				</ul>
+			</div>
+			
 		</div>
 		
 		<div id="found-doctors-panel">
-			<iframe id="find-doctors-iframe" src="found-doctors-table.html">
-			</iframe>
+			<table>
+				<tr class="header">
+					<th>Encounter ID#</th>
+					<th>Status</th>
+					<th>Date</th>
+					<th>Doctor Network</th>
+					<th>Patient Group</th>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="even">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+				<tr class="odd">
+					<td>Stewartson</td>
+					<td>Rod</td>
+					<td>#18734349</td>
+					<td>1 (310) 619-6418</td>
+					<td>Available</td>
+				</tr>
+			</table>
 		</div>
 
 	</div>
