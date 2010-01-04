@@ -54,9 +54,8 @@ fieldset {
 	background-color: #eee;
 }
 
-fieldset p {
-	margin: 0px;
-	padding: 0px;
+fieldset label {
+	font-weight: bold;
 }
 
 fieldset legend {
