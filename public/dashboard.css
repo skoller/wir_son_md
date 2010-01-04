@@ -50,6 +50,9 @@ div.module {
 	line-height: 1.4em;
 }
 
+div.module:first-child {
+	margin-top: 0px;
+}
 #footer {
 	margin-top: 40px;
 	padding-top: 10px;
@@ -68,7 +71,7 @@ h1 {
 	font-weight: normal;
 }
 
-h1 span {
+h2 span {
 	font-size: 24px;
 	color: #CCCCCC;
 	font-weight: normal;
@@ -76,10 +79,10 @@ h1 span {
 }
 
 h2 {
-	font-size: 20px;
-	color: #CCCCCC;
+	margin-top: 30px;
+	font-size: 24px;
+	color: blue;
 	font-weight: normal;
-	margin-top: -18px;
 }
 
 h3 {
