@@ -77,10 +77,14 @@ fieldset td {
 
 #found-doctors-panel {
 	width: 900px;
-	height: 200px;
+	height: 150px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	border: 1px solid #aaa;
+}
+
+#found-doctors-panel tr.odd {
+	background-color: #ededfd;
 }
 
 #footer {
@@ -290,8 +294,6 @@ td {
 td:last-child, th:last-child {
 	border-right: none;
 }
-
-
 
 tr.odd {
 	background-color: #eee;
