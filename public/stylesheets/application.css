@@ -25,6 +25,11 @@ body {
 	margin-right: auto;
 }
 
+#container{
+	width: 900px;
+	margin-bottom: 20px;
+}
+
 div.module {
 	margin-top: 14px;
    border: 1px solid #AAAAAA;
@@ -65,7 +70,7 @@ fieldset td {
 }
 
 #footer {
-	margin-top: 40px;
+	margin-top: 0px;
 	padding-top: 10px;
 	text-align: center;
 	border-top: 1px solid #CCCCCC;
@@ -149,6 +154,10 @@ h3 {
 	border: 1px solid #aaa;
 	float: left;
 	background-color: white;
+}
+
+#nav li:first-child {
+	padding-left: 17px;
 }
 
 #nav li#current-tab {

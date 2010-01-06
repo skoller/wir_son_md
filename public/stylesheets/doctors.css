@@ -1,62 +1,49 @@
-#container{
-	width: 900px;
-	margin-bottom: 20px;
+#filters {
+	width: 840px;
+	height: 145px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#filters td {
+	border-right: none;
 }
 
 #find-doctors-panel {
 	width: 900px;
 	height: 200px;
-	overflow-y: scroll;
-	overflow-x: hidden;
 	border: 1px solid #aaa;
+	margin: 20px 0px 0px 0px;
 }
 
 #found-doctors-panel {
 	width: 900px;
-	height: 150px;
+	height: 180px;
+	border: 1px solid #aaa;
+	margin-bottom: 0px;
+}
+
+#find-doctors-panel-scroll {
+	width: 900px;
+	height: 173px;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	border: 1px solid #aaa;
+	padding: 0px;
+	margin: 0px;
 }
 
 #found-doctors-panel tr.odd {
 	background-color: #ededfd;
 }
 
-#footer {
-	margin-top: 40px;
-	padding-top: 10px;
-	text-align: center;
-	border-top: 1px solid #CCCCCC;
-	font-family: arial, times,sans-serif;
-	font-size: 12px;
-	clear: both;
-	color: #AAA;
-}
-
-input.textinput {
- 	background: #fff;
-	display: inlne;
-	padding: 0 0 0 0;
-	margin-left: 10px;
-	height: 1.4em;
-	border: 1px solid #aaa;
-	width: 300px;
-}
-
-input.textinput:hover { 
-	background-color:white;
-}
-
-input.searchButton {
-	background-color: blue;
-	color: #FFFFFF;
-	font-weight: bold;
-	display: inline;
-	padding: 0 0 0 0;
-	border: none;
-	width: 28px;
-	height: 1.4em;
+#found-doctors-panel-scroll {
+	width: 900px;
+	height: 153px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
 }
 
 #middle-panel {
@@ -115,23 +102,50 @@ input.searchButton {
 	padding: 0px;
 }
 
-#searchAssist {
+#search-module {
+	width: 840px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-module input.textinput {
+ 	background: #fff;
+	display: inlne;
+	padding: 0px 0px 0px 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 1.4em;
+	border: 1px solid #aaa;
+	width: 300px;
+}
+
+#search-module input.textinput:hover { 
+	background-color:white;
+}
+
+#search-module input.searchButton {
+	background-color: blue;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: inline;
+	padding: 0 0 0 0;
+	border: none;
+	width: 28px;
+	height: 1.5em;
+}
+
+#search-text {
 	font-family: arial, sans-serif;
 	color: #555
 	font-weight: bold;
 	float: left;
+	margin: 0px 0px 10px 0px;
 }
 
-#searchAssist p {
-	margin: 1px 0px 0px 120px;
+#search-text p {
+	margin: 10px 0px 10px 120px;
 	padding: 0px;
 	font-weight: bold;
 	color: #555;
-}
-
-#searchBox {
-	width: 840px;
-	height: 38px;
-	background-color: #f8f8f8;
-	border: 1px solid #aaa;
 }

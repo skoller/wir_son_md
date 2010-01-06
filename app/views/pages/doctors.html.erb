@@ -1,5 +1,5 @@
 <div id="filters" class="module">
-	<h3>Filter Options<h3> 
+	<h3>Filter Options</h3> 
 	<table>
 		<tr>
 			<td>
@@ -103,17 +103,19 @@
 		</tr>
 	</table>	
 </div>
-	<fieldset id="searchBox">
-		<legend>Search</legend>
-		<div id="searchAssist">
-			<p>Selected Default Search Column:</p>
-		</div>
-		<div id="search-input">
-			<input type="text" class="textinput" />
-			<input type="submit" value="GO" class="searchButton" />
-		</div>
+<div id="search-module" class="module">
+	<h3>Search</h3>
+	<div id="search-text">
+		<p>Selected Default Search Column:</p>
 	</div>
-	<div id="find-doctors-panel">
+	<div id="search-input">
+		<input type="text" class="textinput" />
+		<input type="submit" value="GO" class="searchButton" />
+	</div>
+</div>
+<div id="find-doctors-panel" >
+	<h3>Doctors Matching Your Search...</h3>
+	<div id="find-doctors-panel-scroll">
 		<table>
 			<tr class="header">
 				<th width="25%">Last Name</th>
@@ -220,58 +222,30 @@
 				<td>1 (310) 619-6418</td>
 				<td>Available</td>
 			</tr>
-			<tr class="odd">
-				<td>Stewartson</td>
-				<td>Rod</td>
-				<td>#18734349</td>
-				<td>1 (310) 619-6418</td>
-				<td>Available</td>
-			</tr>
-			<tr class="even">
-				<td>Stewartson</td>
-				<td>Rod</td>
-				<td>#18734349</td>
-				<td>1 (310) 619-6418</td>
-				<td>Available</td>
-			</tr>
-			<tr class="odd">
-				<td>Stewartson</td>
-				<td>Rod</td>
-				<td>#18734349</td>
-				<td>1 (310) 619-6418</td>
-				<td>Available</td>
-			</tr>
-			<tr class="even">
-				<td>Stewartson</td>
-				<td>Rod</td>
-				<td>#18734349</td>
-				<td>1 (310) 619-6418</td>
-				<td>Available</td>
-			</tr>
 		</table>
 	</div>
+</div>
 	
-	<div id="middle-panel">
-		
-		<div id="move-up-down-div">
-			<ul id="move-up-down">
-				<li><a href="#">Select All Above</a></li>
-				<li><a href="#">Move Selected Below</a></li>
-			</ul>
-		</div>
-		
-		<div id="toolbar-div">
-			<ul id="toolbar">
-				<li><a href="#">Group Edit</a></li>
-				<li><a href="#">Create a New DN</a></li>
-				<li><a href="#">Send to RT-Management</a></li>
-				<li><a href="#">Send to Messaging</a></li>
-			</ul>
-		</div>
-		
+<div id="middle-panel">
+	<div id="move-up-down-div">
+		<ul id="move-up-down">
+			<li><a href="#">Select All Above</a></li>
+			<li><a href="#">Move Selected Below</a></li>
+		</ul>
 	</div>
+	<div id="toolbar-div">
+		<ul id="toolbar">
+			<li><a href="#">Group Edit</a></li>
+			<li><a href="#">Create a New DN</a></li>
+			<li><a href="#">Send to RT-Management</a></li>
+			<li><a href="#">Send to Messaging</a></li>
+		</ul>
+	</div>
+</div>
 	
-	<div id="found-doctors-panel">
+<div id="found-doctors-panel">
+	<h3>Doctors You've Selected</h3>
+	<div id="found-doctors-panel-scroll">
 		<table>
 			<tr class="header">
 				<th>Encounter ID#</th>
