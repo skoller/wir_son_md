@@ -46,29 +46,6 @@ div.module:first-child {
 	margin-top: 0px;
 }
 
-fieldset {
-	border: 1px solid #aaa;
-	margin-top: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	width: 840px;
-	background-color: #f8f8f8;
-}
-
-fieldset label {
-	font-weight: bold;
-}
-
-fieldset legend {
-	font-size: 16px;
-	color: blue;
-}
-
-fieldset td {
-	border-right: none;
-}
-
 #footer {
 	margin-top: 0px;
 	padding-top: 10px;
