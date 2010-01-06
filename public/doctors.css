@@ -46,7 +46,7 @@ div.module {
 
 fieldset {
 	border: 1px solid #aaa;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
@@ -99,9 +99,11 @@ fieldset td {
 }
 
 h1 {
-	margin-top: 10px;
-	font-size: 24px;
-	color: blue;
+	text-align: left;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: #ccc;
 	font-weight: normal;
 }
 
@@ -109,14 +111,14 @@ h2 span {
 	font-size: 24px;
 	color: #CCCCCC;
 	font-weight: normal;
-	margin-top: -18px;
 }
 
 h2 {
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
 	font-size: 24px;
 	color: blue;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 h3 {
@@ -212,26 +214,30 @@ input.searchButton {
 }
 
 #nav {
-	 position: relative;
-	 width: 900px;
-	 text-align: left;
-	 margin: 0px 0px 0px 0px;
-	 padding: 0px 0px 0px 0px;
+	width: 900px;
+	color: #CCC;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;
 }
 
 #nav ul {
-	color: #CCC;
 	list-style-type: none;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 
 #nav li {
-	margin: 0px -4px 0px 0px;
-	padding: 10px 16px 10px 17px;
-	display: inline;
-	border: 1px solid #AAA;
-	border-collapse: collapse;
+	margin: 0px -1px 0px 0px;
+	padding: 8px 16px 6px 17px;
+	border: 1px solid #aaa;
+	float: left;
+	background-color: white;
+}
+
+#nav li#current-tab {
+	background-color: #eef;
+	color: white;
 }
 
 p {

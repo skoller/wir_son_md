@@ -212,26 +212,24 @@ input.searchButton {
 }
 
 #nav {
-	 position: relative;
-	 width: 900px;
-	 text-align: left;
-	 margin: 0px 0px 0px 0px;
-	 padding: 0px 0px 0px 0px;
-}
-
-#nav ul {
+	width: 900px;
 	color: #CCC;
-	list-style-type: none;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 
+#nav ul {
+	list-style-type: none;
+	margin: 17px 40px 0px 10px;
+	padding: 0px 0px 0px 0px;
+}
+
 #nav li {
-	margin: 0px -4px 0px 0px;
-	padding: 10px 16px 10px 17px;
-	display: inline;
-	border: 1px solid #AAA;
-	border-collapse: collapse;
+	margin: 0px -1px 0px 0px;
+	padding: 6px 13px 6px 13px;
+	border: 1px solid #aaa;
+	float: left;
+	background-color: white;
 }
 
 p {
