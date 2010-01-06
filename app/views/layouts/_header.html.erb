@@ -1,0 +1,17 @@
+<div id="top">
+	<h1>SonicMD</h1>
+	<div id="nav">
+		<ul class="menu">
+			<li class="menu"><%= link_to 'Dashboard', :controller => 'pages', :action => 'dashboard' %></li>
+			<li class="menu"><%= link_to 'Doctors', :controller => 'pages', :action => 'doctors' %></li>
+			<li class="menu"><%= link_to 'Patients', :controller => 'pages', :action => 'patients' %></li>
+			<li class="menu"><%= link_to 'DGs', :controller => 'pages', :action => 'doctor_groups' %></li>
+			<li class="menu"><%= link_to 'PGs', :controller => 'pages', :action => 'patient_groups' %></li>
+			<li class="menu"><%= link_to 'Encounters', :controller => 'pages', :action => 'encounters' %></li>
+			<li class="menu"><%= link_to 'Transactions', :controller => 'pages', :action => 'transactions' %></li>
+			<li class="menu"><%= link_to 'Admins', :controller => 'pages', :action => 'admins' %></li>
+			<li class="menu"><%= link_to 'Master Settings', :controller => 'pages', :action => 'master_settings'%></li>
+		</ul>
+	</div>
+	<h2><span class="subhead">Admin &lt;</span> <%= @title %></h2>
+</div>

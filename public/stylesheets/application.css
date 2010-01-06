@@ -3,7 +3,6 @@ a {
 	color: blue;
 	font-size: 16px;
 	text-decoration: none;
-
 }
 
 a:hover {
@@ -26,18 +25,6 @@ body {
 	margin-right: auto;
 }
 
-#column-l {
-	float: left;
-	width: 250px;
-	margin-bottom: 20px;
-}
-
-#column-r {
-	float: right;
-	width: 620;
-	margin-bottom: 20px;
-}
-
 div.module {
 	margin-top: 14px;
    border: 1px solid #AAAAAA;
@@ -53,6 +40,30 @@ div.module {
 div.module:first-child {
 	margin-top: 0px;
 }
+
+fieldset {
+	border: 1px solid #aaa;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 840px;
+	background-color: #f8f8f8;
+}
+
+fieldset label {
+	font-weight: bold;
+}
+
+fieldset legend {
+	font-size: 16px;
+	color: blue;
+}
+
+fieldset td {
+	border-right: none;
+}
+
 #footer {
 	margin-top: 40px;
 	padding-top: 10px;
@@ -98,26 +109,32 @@ h3 {
 	border-bottom: 1px solid #AAA;
 }
 
-input.textinput {
- 	background:#F7F7F7;
-	display:inline;
-	padding:0 0 0 0;
-	height:1.1em;
-	border: 1px solid #CCCCCC;
+#middle-panel #toolbar {
+	list-style-type: none;
+	margin: 17px 40px 0px 10px;
+	padding: 0px 0px 0px 0px;
 }
 
-input.textinput:hover { 
-	background-color:white;
+#middle-panel #toolbar li {
+	margin: 0px -1px 0px 0px;
+	padding: 6px 13px 6px 13px;
+	border: 1px solid #aaa;
+	float: left;
+	background-color: white;
 }
 
-input.searchButton {
-	background-color:blue;
-	color:#FFFFFF;
-	font-weight:bold;
-	display:inline;
-	padding:0 0 0 0;
-	border:none;
-	width:25px;
+#middle-panel a {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav {
+	width: 900px;
+	color: #CCC;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;
 }
 
 #nav ul {
@@ -140,22 +157,21 @@ input.searchButton {
 }
 
 p {
-	padding:9px 9px 9px 9px;
-	font-family:normal;
-	font-family:arial, times,sans-serif;
-	font-size:12px;
-	word-spacing:2px;
-	color:#AAaAAA;
-	line-height:1.4em;
-}
-
-#states li a {
+	padding: 9px 9px 9px 9px;
+	font-family: normal;
+	font-family: arial, times,sans-serif;
 	font-size: 12px;
+	word-spacing: 2px;
+	color: #AAaAAA;
+	line-height: 1.4em;
 }
-
+		
 table {
 	border-collapse: collapse;
 	width: 100%;
+	font-family: arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 th {
@@ -180,41 +196,6 @@ td:last-child, th:last-child {
 	border-right: none;
 }
 
-#top {
-	margin-bottom: 10px;
-}
-
 tr.odd {
 	background-color: #eee;
 }
-
-/*
-#announcement {
-	margin-top:65px;
-	width:155px;
-	position:relative;
-	margin-left:-15px;
-	margin-right:8px;
-	float:left;
-	padding:0px 0px 0px 0px;
-}
-
-		<div id="searchBox">
-			<div id="searchAssist">search for term:&nbsp;</div>
-			<input type="text" class="textinput" />
-			<input type="submit" value="GO" class="searchButton" />
-		</div>
-		
-		#searchAssist {
-	font-family: arial, Times New Roman;
-	color: #AAAAAA;
-	float: left;
-	margin-bottom: -4px;
-}
-
-#searchBox {
-	float:right;
-	margin-top:-33px;
-	margin-right:10px;
-}
-*/
