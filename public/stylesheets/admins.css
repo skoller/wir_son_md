@@ -1,0 +1,58 @@
+#admin-buttons {
+	width: 450px;
+	height: 60px;
+	margin: 0px 0px 0px 450px;
+	padding: 0px 0px 0px 0px;
+	background-color: #f6f6f6;
+}
+
+#admin-buttons #toolbar {
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 0px 32px;
+}
+
+#admin-buttons #toolbar li {
+	margin: 0px -1px 0px 0px;
+	padding: 6px 13px 6px 13px;
+	border: 1px solid #aaa;
+	float: left;
+	background-color: white;
+}
+
+#admin-buttons a {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#filters {
+	width: 860px;
+	height: 155px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#filters td {
+	border-right: none;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#find-panel {
+	width: 900px;
+	height: 500px;
+	border: 1px solid #aaa;
+	margin: 20px 0px 0px 0px;
+}
+
+#find-panel-scroll {
+	width: 900px;
+	height: 473px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0px;
+	margin: 0px;
+}
