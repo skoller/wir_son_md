@@ -1,8 +1,6 @@
 <div id="admin-buttons">
 	<ul id="toolbar">
 		<li><a href="#">Add Administrator</a></li>
-		<li><a href="#">Delete Administrator</a></li>
-		<li><a href="#">Edit Administrator</a></li>
 	</ul>
 </div>
 <div id="find-panel" >
@@ -16,6 +14,8 @@
 				<th>Email Address</th>
 				<th>Phone Number</th>
 				<th>Role</th>
+				<th>Edit</th>
+				<th>Delete</th>
 			</tr>
 			<tr class="odd">
 				<td>Skoller</td>
@@ -24,6 +24,8 @@
 				<td>nskollerh@gmail.com</td>
 				<td>1 (310) 809-0426</td>
 				<td>Admin</td>
+				<td><%= link_to 'Edit', '#' %></th>
+				<td><%= link_to 'Delete', '#' %></th>
 			</tr>
 			<tr class="even">
 				<td>Gershuni</td>
@@ -32,6 +34,8 @@
 				<td>vidgersh@gmail.com</td>
 				<td>1 (310) 619-6418</td>
 				<td>Admin</td>
+				<td><%= link_to 'Edit', '#' %></th>
+				<td><%= link_to 'Delete', '#' %></th>
 			</tr>
 			<tr class="odd">
 				<td>Walters</td>
@@ -40,6 +44,8 @@
 				<td>arthur@watersmedical.com</td>
 				<td>1 (310) 426-3307</td>
 				<td>Manager</td>
+				<td><%= link_to 'Edit', '#' %></th>
+				<td><%= link_to 'Delete', '#' %></th>
 			</tr>
 		</table>
 	</div>
